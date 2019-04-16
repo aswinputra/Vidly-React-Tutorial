@@ -1,7 +1,7 @@
 import React from "react";
 const Genre = props => {
   const {
-    items: genres,
+    genres,
     textProperty,
     valueProperty,
     selectedItem,
