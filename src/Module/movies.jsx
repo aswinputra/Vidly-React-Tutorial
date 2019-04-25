@@ -83,7 +83,7 @@ class Movies extends Component {
     const { totalCount, data: movies } = this.getPageData();
 
     return (
-      <div className="row">
+      <div className="row m-2">
         <div className="col-3">
           <Genre
             genres={genres}
